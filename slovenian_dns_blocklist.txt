@@ -1,0 +1,325 @@
+! ==============================================================================
+! COMPREHENSIVE SLOVENIAN & REGIONAL DNS BLOCKLIST FOR ADGUARD HOME
+! ==============================================================================
+! Description: Domain-level ad, tracking, and telemetry blocklist tailored for 
+!              Slovenian web traffic and portals (24ur, Siol, Bolha, Avto.net, etc.)
+! Format:      AdGuard Home / Pi-hole DNS Domain Blocking Syntax (||domain.tld^)
+! License:     Open Source / Community Maintained
+! ==============================================================================
+
+! ------------------------------------------------------------------------------
+! 1. iPROM ADSERVER & PROGRAMMATIC EXCHANGE ECOSYSTEM
+! (The dominant ad tech network powering display & video ads across Slovenia)
+! ------------------------------------------------------------------------------
+||iprom.si^
+||iprom.net^
+||iprom.tv^
+||ipromadserver.com^
+||ad.iprom.net^
+||ads.iprom.net^
+||api.iprom.net^
+||app.iprom.net^
+||core.iprom.net^
+||server.iprom.net^
+||tracker.iprom.net^
+||cdn.iprom.net^
+||video.iprom.net^
+||banner.iprom.net^
+||stat.iprom.net^
+||metric.iprom.net^
+||metrics.iprom.net^
+||analytics.iprom.net^
+||ssp.iprom.net^
+||dsp.iprom.net^
+||rtb.iprom.net^
+||programmatic.iprom.net^
+||click.iprom.net^
+||tag.iprom.net^
+||ns.iprom.net^
+
+! ------------------------------------------------------------------------------
+! 2. GEMIUS, DOTMETRICS & VALICON AUDIENCE MEASUREMENT & TELEMETRY
+! (National traffic scripts tracking every session across 95%+ of .si media)
+! ------------------------------------------------------------------------------
+||gemius.pl^
+||gemius.si^
+||gemius.com^
+||gemius.net^
+||hit.gemius.pl^
+||si.hit.gemius.pl^
+||pro.hit.gemius.pl^
+||hr.hit.gemius.pl^
+||rs.hit.gemius.pl^
+||gslb.hit.gemius.pl^
+||ls.hit.gemius.pl^
+||mstat.gemius.pl^
+||gks.gemius.pl^
+||dotmetrics.net^
+||script.dotmetrics.net^
+||collector.dotmetrics.net^
+||valicon.net^
+||valicon.si^
+||analytics.valicon.si^
+||research.valicon.si^
+
+! ------------------------------------------------------------------------------
+! 3. TSMEDIA / TELEKOM SLOVENIJE (Siol.net, Najdi.si, Bizi.si, Itis.si)
+! ------------------------------------------------------------------------------
+||tsmedia.si^
+||ads.tsmedia.si^
+||media.tsmedia.si^
+||tracking.tsmedia.si^
+||analytics.tsmedia.si^
+||stat.tsmedia.si^
+||stats.tsmedia.si^
+||telemetry.tsmedia.si^
+||adserver.tsmedia.si^
+||banner.tsmedia.si^
+||promocije.tsmedia.si^
+||ad.siol.net^
+||ads.siol.net^
+||adserver.siol.net^
+||oglasnik.siol.net^
+||promocije.siol.net^
+||banner.siol.net^
+||banners.siol.net^
+||tracker.siol.net^
+||analytics.siol.net^
+||stat.siol.net^
+||stats.siol.net^
+||counter.siol.net^
+||metric.siol.net^
+||metrics.siol.net^
+||stat.najdi.si^
+||ads.najdi.si^
+||tracker.najdi.si^
+||analytics.najdi.si^
+||ads.bizi.si^
+||tracker.bizi.si^
+||ads.itis.si^
+||tracker.itis.si^
+
+! ------------------------------------------------------------------------------
+! 4. PRO PLUS MEDIA GROUP (24ur.com, Voyo, Cekin, Vizita, Zadovoljna, Mojkvadrat)
+! ------------------------------------------------------------------------------
+||proplus.si^
+||ads.proplus.si^
+||adserver.proplus.si^
+||api.ads.proplus.si^
+||tracker.proplus.si^
+||analytics.proplus.si^
+||ads.24ur.com^
+||adserver.24ur.com^
+||ad.24ur.com^
+||banner.24ur.com^
+||banners.24ur.com^
+||tracker.24ur.com^
+||tracking.24ur.com^
+||analytics.24ur.com^
+||stat.24ur.com^
+||stats.24ur.com^
+||metrics.24ur.com^
+||counter.24ur.com^
+||telemetry.24ur.com^
+||video-ads.24ur.com^
+||v-ads.24ur.com^
+||popvrt.si^
+||progaming.si^
+||ad.cekin.si^
+||ads.cekin.si^
+||ad.vizita.si^
+||ads.vizita.si^
+||ad.zadovoljna.si^
+||ads.zadovoljna.si^
+||ads.mojkvadrat.si^
+||ads.moski.si^
+
+! ------------------------------------------------------------------------------
+! 5. STYRIA MEDIA GROUP (Bolha.com, Žurnal24, MojeDelo, Over.net, Styria Digital)
+! ------------------------------------------------------------------------------
+||styria-digital.si^
+||styria-media.si^
+||tracker.styria-media.si^
+||analytics.styria-media.si^
+||ads.styria-media.si^
+||adserver.styria-media.si^
+||ads.zurnal24.si^
+||adserver.zurnal24.si^
+||analytics.zurnal24.si^
+||tracking.zurnal24.si^
+||stat.zurnal24.si^
+||ad.bolha.com^
+||ads.bolha.com^
+||banner.bolha.com^
+||banners.bolha.com^
+||promocije.bolha.com^
+||tracking.bolha.com^
+||analytics.bolha.com^
+||stat.bolha.com^
+||tracking.mojedelo.com^
+||ads.mojedelo.com^
+||analytics.mojedelo.com^
+||ads.over.net^
+||tracker.over.net^
+
+! ------------------------------------------------------------------------------
+! 6. SALOMON & AVTO.NET CLASSIFIEDS NETWORK
+! ------------------------------------------------------------------------------
+||ads.avto.net^
+||ad.avto.net^
+||banner.avto.net^
+||banners.avto.net^
+||tracking.avto.net^
+||analytics.avto.net^
+||stat.avto.net^
+||promocije.avto.net^
+||tracking.salomon.si^
+||ads.salomon.si^
+||analytics.salomon.si^
+||ads.dostostopa.si^
+||ads.kmetijskioglasnik.si^
+
+! ------------------------------------------------------------------------------
+! 7. PUBLISHING & PRESS GROUPS (Delo, Dnevnik, Večer, RTV SLO, Finance, etc.)
+! ------------------------------------------------------------------------------
+||ads.delo.si^
+||adserver.delo.si^
+||tracker.delo.si^
+||analytics.delo.si^
+||stat.delo.si^
+||ad.slovenskenovice.si^
+||ads.slovenskenovice.si^
+||tracking.slovenskenovice.si^
+||analytics.slovenskenovice.si^
+||ads.dnevnik.si^
+||adserver.dnevnik.si^
+||analytics.dnevnik.si^
+||tracker.dnevnik.si^
+||meter.dnevnik.si^
+||ads.vecer.com^
+||adserver.vecer.com^
+||analytics.vecer.com^
+||tracker.vecer.com^
+||meter.vecer.com^
+||ads.finance.si^
+||analytics.finance.si^
+||tracker.finance.si^
+||meter.finance.si^
+||ads.ekipa24.si^
+||tracker.ekipa24.si^
+||ads.metropolitan.si^
+||tracker.metropolitan.si^
+||ads.svet24.si^
+||tracker.svet24.si^
+||ads.mladina.si^
+||analytics.mladina.si^
+||ads.primorske.si^
+||analytics.primorske.si^
+||stats.rtvslo.si^
+||stat.rtvslo.si^
+||telemetry.rtvslo.si^
+||analytics.rtvslo.si^
+||tracker.rtvslo.si^
+||metrics.rtvslo.si^
+||counter.rtvslo.si^
+||log.rtvslo.si^
+||logs.rtvslo.si^
+||ads.rtvslo.si^
+
+! ------------------------------------------------------------------------------
+! 8. E-COMMERCE & SHOPPING TRACKERS (Mimovrste, EnaA, Ceneje, Shoptok)
+! ------------------------------------------------------------------------------
+||promocije.mimovrste.com^
+||ads.mimovrste.com^
+||tracking.mimovrste.com^
+||analytics.mimovrste.com^
+||ad.enaa.com^
+||ads.enaa.com^
+||analytics.enaa.com^
+||tracker.enaa.com^
+||tracking.shoptok.si^
+||ads.ceneje.si^
+||tracker.ceneje.si^
+||analytics.ceneje.si^
+||ads.kuponko.si^
+||analytics.kuponko.si^
+||ads.1nadan.si^
+||analytics.1nadan.si^
+
+! ------------------------------------------------------------------------------
+! 9. CELTRA, HTTPOOL, ETARGET, GOLDBACH & REGIONAL AD NETWORKS
+! ------------------------------------------------------------------------------
+||httpool.si^
+||httpool.com^
+||httpool.net^
+||adnet.si^
+||adles.si^
+||celtra.com^
+||celtra.si^
+||img.celtra.com^
+||cache-ssl.celtra.com^
+||track.celtra.com^
+||etarget.si^
+||etarget.net^
+||sk.etargetnet.com^
+||cz.etargetnet.com^
+||goldbach.com^
+||goldbach.si^
+||adad.si^
+||adserver.si^
+||ad-server.si^
+||oglasi.si^
+||oglasnik.si^
+||media-ads.si^
+
+! ------------------------------------------------------------------------------
+! 10. THIRD-PARTY PROGRAMMATIC & HEADER BIDDING (Primary Ad Sources on .si Sites)
+! ------------------------------------------------------------------------------
+||criteo.com^
+||criteo.net^
+||static.criteo.net^
+||bidder.criteo.com^
+||taboola.com^
+||trc.taboola.com^
+||cdn.taboola.com^
+||outbrain.com^
+||widgets.outbrain.com^
+||mgid.com^
+||servicer.mgid.com^
+||pubmatic.com^
+||image2.pubmatic.com^
+||openx.net^
+||rtb.openx.net^
+||rubiconproject.com^
+||fastlane.rubiconproject.com^
+||appnexus.com^
+||ib.adnxs.com^
+||casalemedia.com^
+||indexww.com^
+||amazon-adsystem.com^
+||aax.amazon-adsystem.com^
+||media.net^
+||smartadserver.com^
+||ww251.smartadserver.com^
+||yieldlab.net^
+||adform.net^
+||track.adform.net^
+||teads.tv^
+||a.teads.tv^
+||stickyadstv.com^
+||invitemedia.com^
+||adroll.com^
+||quantserve.com^
+||scorecardresearch.com^
+||sb.scorecardresearch.com^
+
+! ------------------------------------------------------------------------------
+! 11. REGIONAL ANTI-ADBLOCK & POPUP REDIRECT SCRIPTS
+! ------------------------------------------------------------------------------
+||adblock-bypass.si^
+||anti-adblock.si^
+||popups.si^
+||ad-click.si^
+||track.si^
+||metrics.si^
+||stats.si^
